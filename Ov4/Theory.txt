@@ -1,0 +1,14 @@
+a)
+	The difference between a list and a stream is that a list has a defined end element of nil, while a
+	stream is recursively defined and infinite.
+	
+b)
+	During lazy execution, if there is an exception then the computer will start solving other parts of the
+	code to see if the problem is solved somwhere else. This can complicate the use of the exceptions, as
+	one is not certain when they are encountered and/or solved. (bindes til variable in question)
+	
+c)
+	Write the if sentence to stop execution after a number of recursions. In other words a list is made of the
+	X first elements in the output stream and append the rest of the stream as the last element of the list.
+	If it is not included the machine just tells you it has an infinite stream as output, without showing any
+	elements.

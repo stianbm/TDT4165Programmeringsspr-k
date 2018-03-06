@@ -1,0 +1,24 @@
+Theory exercise 2 task 4
+	a)
+		A = {+, -, *, /}
+		N = {n} for n element i N (Heltall)
+		K = {p, d, ^, i}
+		D = {N, K, A}}
+		<C> = {<D>, <D><D>, NN<A>}
+		
+	b)
+		Goes from <F>=<F>NAN<F> to <F>NNA<F> . Because parentheses are negated, the grammar will be un*ambigous, as (5-2)*3
+		becomes 5-2*3.
+		
+	c)
+		In a context free language all rules are on the form V ::== G, which means that the rules holds for
+		all cases. A context sensitive language will, however, have rules on the form wVx ::== wGx. Meaning
+		that the rules are dependant on the context, w and x.
+		
+	d)
+		The float-int error happens because ints and floats are non-compatible without conversion. This
+		can be useful because it will let you keep track of your datatypes, which is essential if you're
+		making a memory- or prosessing sensitive program.
+		
+	Spørsmål:
+		-Kan man if'e over to sammenligninger? Typ &&
